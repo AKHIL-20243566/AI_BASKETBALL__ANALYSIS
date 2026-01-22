@@ -77,14 +77,6 @@ The system can:
 - **Hugging Face Zero-Shot Classifier**
 
 ---
-## Project Structure
-
-basketball_analysis/
-├── input_videos/        # Input basketball match videos
-├── models/              # Trained YOLO models
-├── training_notebooks/  # Model training notebooks
-├── main.py              # Main execution script
-└── README.md
 
 ## Contributors
 
@@ -107,3 +99,12 @@ Pragya Agarwal
 git clone https://github.com/your-username/basketball_analysis.git
 cd basketball_analysis
 pip install ultralytics roboflow
+
+## Project Structure
+
+basketball_analysis/
+├── input_videos/        # Input basketball match videos
+├── models/              # Trained YOLO models
+├── training_notebooks/  # Model training notebooks
+├── main.py              # Main execution script
+└── README.md
